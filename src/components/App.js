@@ -7,10 +7,10 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-        <input onChange={(e)=>{
+        <input type="text" npm onChange={(e)=>{
           setName(e.target.value)
-      }}name="greet" id="greeding" value= {name}  className=" "/>
-      {name && <h2>Hello{name}!</h2>}
+      }}name="greet" id="greeding" value= {name}  className=" " placeholder="Enter your name"/>
+      {name && <h2>Hello,{name}!</h2>}
     </div>
   )
 }
