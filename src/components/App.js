@@ -10,7 +10,7 @@ const App = () => {
         <input onChange={(e)=>{
           setName(e.target.value)
       }}name="greet" id="greeding" value= {name}  className=" "/>
-      {name && <h2>Hello, {name}!</h2>}
+      {name && <h2>Hello,{name}!</h2>}
     </div>
   )
 }
