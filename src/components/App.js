@@ -10,7 +10,7 @@ const App = () => {
         <input type="text" onChange={(e)=>{
           setName(e.target.value)
       }}name="greet" id="greeding" value= {name}  className=" " placeholder="Enter your name"/>
-      {name && <h2>Hello,{name}!</h2>}
+      {name && <p>Hello,{name}!</p>}
     </div>
   )
 }
