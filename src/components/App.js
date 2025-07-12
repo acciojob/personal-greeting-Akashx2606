@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-        <input type="text" npm onChange={(e)=>{
+        <input type="text" onChange={(e)=>{
           setName(e.target.value)
       }}name="greet" id="greeding" value= {name}  className=" " placeholder="Enter your name"/>
       {name && <h2>Hello,{name}!</h2>}
